@@ -2,10 +2,11 @@ h1 {
   display: none;
 }
 
-div:not(#ashby_embed) {
-  display: none !important;
+.w-embed.w-script > div:first-of-type {
+  display: none;
 }
 
+/* Ensure the job board container is visible */
 #ashby_embed {
   display: block !important;
 }
