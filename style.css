@@ -2,12 +2,10 @@ h1 {
   display: none;
 }
 
-/* Hide everything inside the Webflow embed except the Ashby job board */
-.w-embed.w-script > *:not(#ashby_embed) {
+.ashby-embed > *:not(#ashby_embed) {
   display: none !important;
 }
 
-/* Ensure the job board stays visible */
-#ashby_embed {
+.ashby-embed #ashby_embed {
   display: block !important;
 }
