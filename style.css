@@ -3,9 +3,9 @@ h1 {
 }
 
 div:not(#ashby_embed) {
-  display: none;
+  display: none !important;
 }
 
 #ashby_embed {
-  display: block;
+  display: block !important;
 }
