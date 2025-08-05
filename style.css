@@ -1,3 +1,11 @@
 h1 {
   display: none;
 }
+
+div {
+  display: none;
+}
+
+div #ashby_embed {
+  display: block;
+}
