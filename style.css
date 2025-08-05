@@ -2,11 +2,12 @@ h1 {
   display: none;
 }
 
-.w-embed.w-script > div:first-of-type {
-  display: none;
+/* Hide the entire header block (title + example text) */
+.w-embed.w-script > div[style*="text-align:center"] {
+  display: none !important;
 }
 
-/* Ensure the job board container is visible */
+/* Keep the Ashby embed visible */
 #ashby_embed {
   display: block !important;
 }
