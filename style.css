@@ -2,12 +2,12 @@ h1 {
   display: none;
 }
 
-/* Hide the entire header block (title + example text) */
-.w-embed.w-script > div[style*="text-align:center"] {
+/* Hide everything inside the Webflow embed except the Ashby job board */
+.w-embed.w-script > *:not(#ashby_embed) {
   display: none !important;
 }
 
-/* Keep the Ashby embed visible */
+/* Ensure the job board stays visible */
 #ashby_embed {
   display: block !important;
 }
