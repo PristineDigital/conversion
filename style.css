@@ -2,10 +2,10 @@ h1 {
   display: none;
 }
 
-div {
+div:not(#ashby_embed) {
   display: none;
 }
 
-div #ashby_embed {
+#ashby_embed {
   display: block;
 }
