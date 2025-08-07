@@ -9,7 +9,7 @@
 @font-face {
   font-family: 'Family';
   src: url('https://cdn.jsdelivr.net/gh/PristineDigital/conversion/family-regular.woff2') format('woff2');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
@@ -31,7 +31,7 @@
   body {
     background-color: transparent !important;
     color: #21201C;
-      font-family: Twk Lausanne, Arial, sans-serif !important;
+    font-family: 'Twk Lausanne', Arial, sans-serif !important;
     font-size: 1rem !important;
     font-weight: 300 !important;
     line-height: 1.5 !important;
@@ -46,7 +46,7 @@
   }
   
   ._title_ud4nd_34 {
-    font-family: Family, Arial, sans-serif;
+    font-family: 'Family', Arial, sans-serif;
     line-height: 1 !important;
     color: #21201C;
     font-weight: 400 !important;
@@ -61,7 +61,7 @@
   }
   
   ._departmentHeading_12ylk_349 {
-    font-family: Family, Arial, sans-serif;
+    font-family: 'Family', Arial, sans-serif;
     color: #5B5B5A;
     line-height: 1 !important;
     font-weight: 400 !important;
@@ -102,7 +102,7 @@
   }
   
   ._title_12ylk_383 {
-    font-family: Family, Arial, sans-serif;
+    font-family: 'Family', Arial, sans-serif;
     color: #21201C;
     line-height: 1 !important;
     font-weight: 400 !important;
